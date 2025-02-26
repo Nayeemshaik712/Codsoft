@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0073e6;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        .about, .services, .projects, .contact {
+            text-align: center;
+            padding: 50px 20px;
+            background: #fff;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .icon {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .service-sub, .project-sub {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .service-provide, .project-provide {
+            background: #0073e6;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            transition: 0.3s;
+        }
+        .service-provide:hover, .project-provide:hover {
+            background: #005bb5;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .social-icon-img {
+            width: 40px;
+            transition: 0.3s;
+        }
+        .social-icon-img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header class="portfolio-top">
+        <nav>
+            <a href="#about-us">About Me</a>
+            <a href="#services">My Services</a>
+            <a href="#projects">Work Portfolio</a>
+            <a href="#contact">Get in Touch</a>
+        </nav>
+    </header>
+
+    <section id="about-us" class="about">
+        <img src="Profile.jpg" class="icon" alt="Profile Picture">
+        <h1 id="name">Rahman Nayeem Abrar</h1>
+        <h2>Web Developer</h2>
+        <p>Enthusiastic about software development | Skilled in HTML, CSS, JavaScript, and UI/UX | Committed to creating dynamic websites and applications.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h1 class="service-heading">My Services</h1>
+        <div class="service-sub">
+            <div class="service-provide">
+                <h2>Website Development</h2>
+                <p>Building aesthetically pleasing and fully functional websites using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="service-provide">
+                <h2>UI/UX Enhancements</h2>
+                <p>Designing seamless and user-friendly interfaces for a better user experience.</p>
+            </div>
+            <div class="service-provide">
+                <h2>Mobile App Design</h2>
+                <p>Creating intuitive and engaging app designs from wireframes to prototypes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h1 class="project-heading">Work Portfolio</h1>
+        <div class="project-sub">
+            <div class="project-provide">
+                <h2>E-Commerce Website</h2>
+                <p>Developed a fully functional e-commerce site with a shopping cart, payment integration, and user authentication.</p>
+            </div>
+            <div class="project-provide">
+                <h2>Blogging Platform</h2>
+                <p>Created a dynamic blogging site where users can post, edit, and comment on articles in real-time.</p>
+            </div>
+            <div class="project-provide">
+                <h2>Portfolio Website</h2>
+                <p>Designed and developed a responsive personal portfolio to showcase projects and skills effectively.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h1 class="head">Get in Touch</h1>
+        <p>Email: nayeemshaik712@gmail.com</p>
+        <p>Phone: 8801053087</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/?hl=en">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.JtmXSh_uyZBaTg1eXd-NtgAAAA&pid=Api&P=0&h=180" class="social-icon-img" alt="Instagram">
+            </a>
+            <a href="https://www.youtube.com/@NayeemShaik_712">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.l_XFUnkTUSCv17QSOEraYQHaFG&pid=Api&P=0&h=180" class="social-icon-img" alt="YouTube"> 
+            </a>
+            <a href="https://www.linkedin.com/in/nayeem-shaik-392816313/">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.DgVNhFcvWWSCxJpVWsry4wHaHV&pid=Api&P=0&h=180" class="social-icon-img" alt="LinkedIn"> 
+            </a>
+            <a href="https://github.com/Nayeemshaik712">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.8SVgggxQcO5L6Dw_61ac4QHaEK&pid=Api&P=0&h=180" class="social-icon-img" alt="GitHub"> 
+            </a>
+        </div>
+    </section>
+</body>
+</html>

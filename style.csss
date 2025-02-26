@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portfolio-top {
+    background-color: cadetblue;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 2rem;
+    padding-left: 1.5rem;
+    border: 3px solid white;
+}
+
+#name {
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+}
+
+.services {
+    padding: 25px;
+    text-align: center;
+    background-color: cadetblue;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    min-height: 350px;
+}
+
+.service-heading {
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.service-sub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-provide {
+    font-style: italic;
+    border: 2px solid rgb(233, 236, 239);
+    margin: 1.5rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.projects {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(104, 11, 120);
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    min-height: 350px;
+}
+
+.project-heading {
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.project-sub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-provide {
+    font-style: italic;
+    border: 2px solid rgb(233, 236, 239);
+    margin: 1.5rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.contact {
+    padding: 20px;
+    background-color: cyan;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    min-height: 200px;
+    text-align: center;
+}
+
+.social-icon-img {
+    padding: 15px;
+    height: 24px;
+    width: 24px;
+}
+
+.head {
+    padding: 12px;
+}
+
+.p {
+    padding: 12px;
+}
